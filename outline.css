@@ -65,3 +65,23 @@
 label{
     border: none;
 }
+#mob{
+    display: none;
+}
+
+@media(max-width:480px) {
+    #nav{
+        display: none;
+    }
+    #container{
+        display: none;
+    }
+    #mob{
+        text-align: center;
+        display: block;
+    }
+    body{
+        background-color:rgb(14, 168, 229);
+    }
+    
+} 
